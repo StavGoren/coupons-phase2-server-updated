@@ -31,6 +31,14 @@ public class CategoryEntity {
         this.name = name;
     }
 
+    public List<CouponEntity> getCouponEntities() {
+        return couponEntities;
+    }
+
+    public void setCouponEntities(List<CouponEntity> couponEntities) {
+        this.couponEntities = couponEntities;
+    }
+
     public long getId() {
         return id;
     }
